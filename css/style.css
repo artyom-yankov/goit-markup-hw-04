@@ -11,6 +11,9 @@
  } 
  
   /*общие<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+  html { overflow-x: hidden; }
+
  .conteiner {
    font-family: Roboto;
    width: 1200px;
