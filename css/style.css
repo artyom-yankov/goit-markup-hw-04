@@ -12,12 +12,10 @@
  
   /*общие<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
-  html { overflow-x: hidden; }
 
  .conteiner {
    font-family: Roboto;
    width: 1200px;
-   height: ;
    margin-left: auto;
    margin-right: auto;  
    padding-left: 15px;
@@ -141,19 +139,18 @@
 
   /*Герой<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
  .bbc{
-  width: 1600px;
+  max-width: 1600px;
   text-align: center;
   padding-top: 200px; 
   padding-bottom: 200px;
   background-size: cover;
   margin: auto;
-  position: relative;
-  background: rgba(47, 48, 58, 0.4);
+  background-position: center;
+  background-color: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ), 
-  url(../img/main.jpg);
+    rgba(47, 48, 58, 0.4)), 
+    url(../img/main.jpg);
   background-repeat: no-repeat;
  }
  
@@ -330,7 +327,7 @@
  .team{
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
+  max-width: 1600px;
   margin: auto;
   background-color: var(--buton-color);
  }
@@ -434,7 +431,7 @@
   .reguiar-customers{
     padding-top: 94px;
     padding-bottom: 94px;
-    width: 1600px;
+    max-width: 1600px;
     height: 370px;
     margin: auto;
   }
@@ -489,7 +486,7 @@
  .footer{
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
+  max-width: 1600px;
   margin: auto;
   background-color: var(--footer-background-color);
  }
